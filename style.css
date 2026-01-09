@@ -1,0 +1,29 @@
+body {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(-59deg, #0f0c29, #302b63, #24243e, #00ff80);
+    background-size: 400% 400%;
+    font-family: sans-serif;
+}
+
+
+#main {
+    background: rgba(255, 255, 255, 0.161);
+    width: 500px;
+    padding: 4vh;
+    border-radius: 10px;
+    margin-top: 150px;
+}
+
+
+
+@media (max-width: 480px) {
+    #main {
+        width: 100%;
+    }
+
+   
+}
